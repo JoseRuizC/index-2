@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INPUTS</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        .Temita{
+            text-align: center;
+        }
+        .CampText{
+            text-align: center;
+            border-radius: 2px;
+        }
+        .Correo{
+            text-align: center;
+            border-radius: 2px;
+            width: 20 px;
+        }
+        input{
+            border-width: 20px;
+        }
+        
+    </style>   
+    <p class="Temita"> EJEMPLOS DE INPUT </p>    
+</head>
+<body>
+    <!--Campo de Texto-->
+    <P>Coloque su nombre</p>
+    <label>Nombre: </label>
+    <input class="CampText" type="Text" name="Nombre" id="Nombre" placeholder="Ingrese su nombre">
+    <!--Campo de correo--> 
+    <br>
+    <hr>
+    <label> Correo electronico </label>
+    <input class="Correo" type="email" name="correo" id="correo" placeholder="Ingrese correo electronico" required>
+    <!--Boton para enviar-->
+    <br>
+    <button type="submit" id="enviar">Enviar</button>
+
+</body>
+</html>
